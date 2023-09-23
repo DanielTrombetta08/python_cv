@@ -1,0 +1,6 @@
+times = ('Grêmio', 'Inter','Chapecoense')
+print(f'Lista de times: {times}')
+print(f'Os dois primeiros {times[0:2]}')
+print(f'Os dois ultimos são {times[-2:]}')
+print(f'Times em ordem alfabética: {sorted(times)}')
+print(f'Posição do Chapecoense {times.index("Chapecoense")+1}')
